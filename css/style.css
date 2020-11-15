@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+header .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sns-list {
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+.home a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+li {
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 40px;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-body img {
+    border-radius: 50%;
+    width: 300px;
+    height:300px;
+    margin: 30px;
+    
+}
+
+.main-body p {
+    flex-basis: 30%; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-top: 40px;
+    font-weight: bold;
+    
+}
+
+footer .wrapper {
+    background-color: black;
+    padding: 10px;
+}
+
+footer .wrapper p {
+    color: white;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* タブレット */
+@media (max-width: 768px) {
+
+
+header .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.home a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.sns-list {
+    display: flex;
+    padding-inline-start: 0px;
+    justify-content:flex-end;
+    margin-right: 30px;
+}
+
+li {
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: xx-large;
+}
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.main-body img {
+    border-radius: 50%;
+    justify-content:center;
+    width: 180px;
+    height:180px;
+    margin: 30px;
+    
+}
+
+.main-body p {
+    flex-basis: 30%; 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding:20px 20px 50px 20px;
+    font-weight: bold;
+    justify-content:center;
+}
+}
+
+
+@media (max-width: 480px)  {
+
+    small {
+        font-size: 60%;
+    }
+}
