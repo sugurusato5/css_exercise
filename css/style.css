@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-body {
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
 
 header .wrapper {
     display: flex;
@@ -78,7 +73,6 @@ footer .wrapper p {
 
 
 header .wrapper {
-    display: flex;
     flex-direction: column;
 }
 
@@ -93,7 +87,6 @@ header .wrapper {
 }
 
 .sns-list {
-    display: flex;
     padding-inline-start: 0px;
     justify-content:flex-end;
     margin-right: 30px;
